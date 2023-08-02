@@ -1,0 +1,12 @@
+[package]
+name = "particle-mesh-macroquad"
+version = "1.0.0"
+edition = "2021"
+description = "A small program to draw a moving particle mesh onto the screen"
+keywords = ["macroquad", "graphics", "animation", "particles"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+macroquad = "0.4"
+clap = { version = "^4", features = ["derive"] }
+rayon = "1"

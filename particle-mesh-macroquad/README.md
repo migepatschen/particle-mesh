@@ -1,14 +1,13 @@
-# Particle Mesh
+# Particle Mesh (Macroquad)
 
-A set of small programs to draw a moving particle mesh onto the screen.
-It started with a version using [Nannou](https://nannou.cc/) but now also has one using [Macroquad](https://macroquad.rs/).
+A small program to draw a moving particle mesh onto the screen with [Macroquad](https://macroquad.rs/).
 
 ## Usage
 
-The programs offer some parameters to control the number of particles, their radius and behavior:
+The program offers some parameters to control the number of particles, their radius and behavior:
 
 ```text
-particle-mesh-XXX [OPTIONS]
+particle-mesh-macroquad.exe [OPTIONS]
 
 OPTIONS:
     -b, --bounce
