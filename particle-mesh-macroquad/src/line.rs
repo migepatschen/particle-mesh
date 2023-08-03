@@ -53,7 +53,7 @@ impl Line {
 }
 
 /// The weight of the [Line]s to be drawn
-const LINE_WEIGHT: f32 = 1.0;
+const LINE_WEIGHT: f32 = 1.5;
 /// If two [Particle](crate::particle::Particle)s are as far or farther away from each other than this value, they will not be connected with a [Line]
 const MAX_LINE_LENGTH: f32 = 200.0;
 
