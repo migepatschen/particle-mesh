@@ -7,6 +7,6 @@ keywords = ["nannou", "graphics", "animation", "particles"]
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-nannou = "^0.18"
+nannou = "^0.19"
 clap = { version = "^4", features = ["derive"] }
 rayon = "1"
