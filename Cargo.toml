@@ -2,6 +2,14 @@
 members = ["particle-mesh-nannou", "particle-mesh-macroquad"]
 resolver = "2"
 
+[workspace.package]
+edition = "2024"
+license = "MIT OR Apache-2.0"
+
+[workspace.dependencies]
+clap = { version = "^4", features = ["derive"] }
+rayon = "1"
+
 [profile.release]
 lto = true
 strip = "symbols"
